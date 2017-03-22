@@ -1,0 +1,165 @@
+/*
+    inde.html文件的特定样式表
+*/
+@charset "utf-8";
+/*
+    菜单总样式
+*/
+
+.topbody
+{
+    background-color:#f6f6f6
+}
+.menu
+{
+    margin: 0 auto;
+    width:1300px;
+
+    /*border:solid 1px red;*/
+
+}
+/*左边总样式*/
+.leftmenu
+{
+    float:left;
+}
+.leftmenu ul
+{
+    margin-top: 10px;
+    /*border:solid 1px pink;*/
+}
+.leftmenu ul li
+{
+    line-height:30px;
+    width:113px;
+
+}
+/*右边总样式*/
+.rightmenu
+{
+    float:right;
+}
+.rightmenu ul
+{
+    /*border:solid 1px pink;*/
+    margin-top: 10px;
+
+}
+.rightmenu ul li
+{
+    float:left;
+    width:89px;
+    line-height:30px;
+    text-align:center;
+    height:30px;
+    margin-right: -5px;
+}
+/*右边精灵图片设置*/
+.map
+{
+    float:left;
+    display:block;
+    width:19px;
+    height:23px;
+    background-repeat: no-repeat;
+    background-position:2px 1px;
+    background-image:url(../images/sprite.png);
+    margin-top: 4px;
+    margin-left:10px;
+
+
+}
+.leftmenu ul li i
+{
+
+}
+
+
+/*导航链接默认*/
+.stylered
+{
+    color:red;
+}
+/*导航链接分割线*/
+.rightmenu ul .line
+{
+    width:1px;
+    height:18px;
+    margin-top: 5px;
+    border-right:solid 1px #d5d5d5;
+}
+/*图片文字位移*/
+.run
+{
+    margin-left:-14px;
+}
+
+/*
+    下方框
+*/
+.blockredboxi
+{
+    display: inline-block;
+    width:11px;
+    height:10px;
+
+    overflow: hidden;
+    float:right;
+    margin-top: -15px;
+    margin-right: 21px;
+    position: relative;
+}
+.blockredboxs
+{
+    position: absolute;
+    top:-8px;
+    letf:-1px;
+}
+
+.rblockredboxi
+{
+    display: inline-block;
+    width:23px;
+    height:5px;
+
+    overflow: hidden;
+    float:right;
+    margin-top: 15px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.rblockredboxs
+{
+    position: absolute;
+    top:-15px;
+    letf:-20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
