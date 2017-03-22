@@ -13,10 +13,8 @@
 .menu
 {
     margin: 0 auto;
-    width:1300px;
-
+    width:1210px;
     /*border:solid 1px red;*/
-
 }
 /*左边总样式*/
 .leftmenu
@@ -137,9 +135,49 @@
 }
 
 
+/*搜索位置*/
+.select
+{
+    margin-top: 24px;
+}
+.selecform
+{
+    border: solid 2px red;
+    margin-left: 10px;
+}
+.dong
+{
 
+    padding-left: 20px;
+}
 
+.selecform .inputwidth
+{
+    width: 550px;
+    height: 36px;
 
+    line-height: 36px;
+    font-size:30px;
+
+}
+.selecform .inputbtn
+{
+    width: 74px;
+    height: 36px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+.selectul
+{
+    padding-top:4px;
+}
+
+.selectul li
+{
+    float:left;
+    padding: 5px;
+}
 
 
 
