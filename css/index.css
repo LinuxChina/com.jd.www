@@ -272,6 +272,10 @@
 
     width: 240px;
 }
+.tree span
+{
+    float:right;
+}
 .tree ul
 {
 
@@ -283,6 +287,7 @@
 {
     font:16px/200% "微软雅黑";
     text-indent: 1em;
+    width: 220px;
 
 }
 .tree ul li a:link
