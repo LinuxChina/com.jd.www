@@ -179,21 +179,115 @@
     padding: 5px;
 }
 
+/*购物车*/
+
+.buytext
+{
+    border:solid 1px #d5d5d5;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    width: 100px;
+}
+.buytext span
+{
+
+    float: left;  display: inline-block;
+    width: 90px;
+    margin-left: 24px;
+    line-height: 30px;
+}
+.buytext i
+{
+
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    background: url(../images/sprite.png) no-repeat 1px -50px;
+}
 
 
+.buymunber
+{
+    position: absolute;
+    display:block;
+    float: right;
+    top:-10px;
+    left: 85px;
 
 
+}
+.redbg
+{
+    color:#ffffff;
+    width: 23px;
+    height: 23px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 23px;
+}
 
+/*菜单*/
+.levelmenu
+{
+    border-bottom:solid 3px #c91623;
+}
 
+.levelul li
+{
+    float:left;
+    font-size:19px;
+    line-height: 41px;
+    padding: 0 20px 0 20px;
+}
+.levelmenu li h5
+{
+    color: white;
+    font-size:17px;
+    background-color: #c91623;
+    width: 230px;
+    line-height: 42px;
+    height: 45px;
+}
 
+.levelimg
+{
+    margin-left: 230px;
+}
 
+/*分类菜单*/
+.bodybg
+{
+    background: url(../images/banner.jpg) no-repeat center center;
+    height: 603px;
+}
+.tree
+{
 
+}
+.tree ul
+{
+    background-color: red;
+    width: 230px;
+}
+.tree ul li
+{
+    font:16px/200% "微软雅黑";
+    text-indent: 1em;
 
+}
+.tree ul li a:link
+{
+    color: white;
 
-
-
-
-
+}
+.tree ul li a:visited
+{
+    color: white;
+}
 
 
 
