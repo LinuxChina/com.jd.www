@@ -251,6 +251,7 @@
     width: 230px;
     line-height: 42px;
     height: 45px;
+    margin-left: -20px;
 }
 
 .levelimg
@@ -266,10 +267,13 @@
 }
 .tree
 {
+    float: left;
 
+    width: 240px;
 }
 .tree ul
 {
+
     background-color: red;
     width: 230px;
 }
@@ -288,6 +292,204 @@
 {
     color: white;
 }
+
+.rigth
+{
+    float: right;
+    width:970px;
+}
+.rightimg
+{
+    float: left;
+
+}
+.femles span
+{
+    float: right;
+    margin-right: 5px;
+}
+.femles
+{
+    float: right;
+    margin-top: 10px;
+    border-top: solid 2px #d5d5d5;
+
+    border-left: solid 2px #d5d5d5;
+    width:229px;
+    border-bottom: dashed 2px #d5d5d5;
+    text-indent: 1em;
+}
+.femles li
+{
+    font:15px/200% "微软雅黑"
+}
+.femles h3
+{
+    border-bottom: dashed 1px #d5d5d5;
+    font:13px/300% "微软雅黑"
+}
+.femlesul
+{
+    margin-top: 20px;
+}
+.femlesul li
+{
+    float:left;
+    border: #d5d5d5 1px solid;
+    width: 55px;
+    height:80px;
+    text-align: center;
+}
+.map1
+{
+    display: block;
+    width: 30px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-color: red;
+    background: url(../images/icon_lifeserv.png) no-repeat -23px 9px;
+}
+.map2
+  {
+      display: block;
+      width: 30px;
+      height: 35px;
+      margin-top: 22px;
+      margin-left: 12px;
+      background-color: red;
+      background: url(../images/icon_lifeserv.png) no-repeat -23px 9px;
+  }
+.map3
+{
+    display: block;
+    width: 30px;
+    height: 35px;
+    margin-top: 22px;
+    margin-left: 12px;
+    background: url(../images/icon_lifeserv.png) no-repeat -23px 9px;
+}
+.femlesul .clearborders
+{
+    border-left: none;
+}
+
+
+/*&图片组*/
+.photo
+{
+ margin-top: 20px;
+}
+.photo li
+{
+    float:left;
+}
+
+
+
+.cpje
+{
+    background: #f5f5f5;
+
+}
+.cpje ul
+{
+
+    margin: 0 auto;
+    height: 90px;
+    width: 1210px;
+}
+
+
+.cpje li
+{
+    margin-top: 20px;
+    float:left;
+    width: 300px;
+}
+.jcd h3
+{
+    display: inline-block;
+    font: 20px/200% "微软雅黑";
+}
+.jcd ul
+{
+    float: left;
+    padding-top: 20px;
+}
+.jcd li
+{
+    width: 200px;
+}
+.rgjd
+{
+    width: 300px;
+    height: 200px;
+    background: url(../images/china.png) no-repeat 1px -100px;
+}
+
+.rgjd ul li h3
+{
+    font: 20px/200% "微软雅黑";
+}
+.rgjd ul li
+{
+    font: 12spx/150% "微软雅黑";
+}
+.rgjd ul li span
+{
+    display: inline-block;
+    margin-right: -90px;
+}
+
+.rgjds
+{
+    float: right;
+    margin-top: 120px;
+    margin-right: 61px;
+}
+/*页脚*/
+.footer
+{
+    border-top: solid 2px #f5f5f5;
+}
+.footercall
+{
+    margin-top: 20px;
+}
+.footercall ul
+{
+
+    margin-left: 250px;
+}
+.footercall li
+{
+    float: left;
+    width: 70px;
+    text-align: center;
+}
+.footerimg li
+{
+    float: left;
+}
+.footertext p
+{
+   width: 1210px;
+    text-align: center;
+}
+.footerimg ul
+{
+    margin-left: 330px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
