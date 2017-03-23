@@ -89,7 +89,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 
 /*广告紫色条*/
 .gimg{
-    /*background-color:#8b25c6;*/
+    background-color:#8b25c6;
 }
 /*广告紫色条图片*/
 .gimg .gimgA
@@ -106,8 +106,8 @@ s,i,em{font-style:normal;text-decoration:none;}
     height: 19px;
 
     float: right;
-    margin-top: -80px;
-    margin-right: 267px;
+    margin-top: -75px;
+    margin-right: 270px;
     background:url(../images/close.png) no-repeat ;
 }
 

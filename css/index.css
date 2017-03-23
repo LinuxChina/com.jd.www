@@ -167,6 +167,7 @@
     background-color: red;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 .selectul
 {
@@ -226,7 +227,7 @@
     height: 23px;
     background-color: red;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 10px 10px 10px 0;
     line-height: 23px;
 }
 
@@ -234,6 +235,7 @@
 .levelmenu
 {
     border-bottom:solid 3px #b1191a;
+
 }
 
 .levelul li
@@ -257,7 +259,8 @@
 
 .levelimg
 {
-    margin-left: 230px;
+    margin-left: 100px;
+
 }
 
 /*分类菜单*/
@@ -308,8 +311,47 @@
 .rightimg
 {
     float: left;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+.rightimg img
+{
+    height: 444px;
+}
+.icons ul
+{
+    width: 180px;
+    position: absolute;
+    left: 50%;
+    bottom:10px;
+    margin-left: -90px;
 
 }
+.icons ul li
+{
+    float:left;
+    width: 20px;
+    height: 20px;
+    background-color: #3E3E3E;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+ /*ul li:hover*/
+/*{*/
+    /*background-color: #B61B3B;*/
+/*}*/
+.icons ul .bls
+{
+    background-color: #B61B3B; background-color: #B61B3B;
+}
+
+
+
 .femles span
 {
     float: right;
@@ -493,10 +535,61 @@
 }
 
 
+.bls
+{
 
+}
 
+.icleft
+{
+    background-color: rgba(0,0,0,0.1);
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top:50%;
+    left: 0;
+    margin-top: -25px;
+}
 
+.icright
+{
 
+    background-color: rgba(0,0,0,0.1);
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top:50%;
+    right: 0;
+    margin-top: -25px;
+}
+.icleft i
+{
+    display: block;
+    width: 40px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 11px;
+    background: url(../images/china.png) -90px -48px no-repeat;
+}
+.icright
+{
+    background-color: rgba(0,0,0,0.1);
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top:50%;
+    right: 0;
+    margin-top: -25px;
+}
+.icright i
+{
+    display: block;
+    width: 40px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 4px;
+    background: url(../images/china.png) -50px -48px no-repeat;
+}
 
 
 
