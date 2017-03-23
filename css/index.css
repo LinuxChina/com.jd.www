@@ -233,7 +233,7 @@
 /*菜单*/
 .levelmenu
 {
-    border-bottom:solid 3px #c91623;
+    border-bottom:solid 3px #b1191a;
 }
 
 .levelul li
@@ -247,11 +247,12 @@
 {
     color: white;
     font-size:17px;
-    background-color: #c91623;
+    background-color: #b1191a;
     width: 230px;
     line-height: 42px;
     height: 45px;
     margin-left: -20px;
+    text-align: center;
 }
 
 .levelimg
@@ -274,8 +275,9 @@
 .tree ul
 {
 
-    background-color: red;
+    background-color: #c81623;
     width: 230px;
+    height: 455px;
 }
 .tree ul li
 {
@@ -316,8 +318,10 @@
 
     border-left: solid 2px #d5d5d5;
     width:229px;
-    border-bottom: dashed 2px #d5d5d5;
+    border-bottom: none;
     text-indent: 1em;
+    height: 443px;
+
 }
 .femles li
 {
@@ -337,7 +341,7 @@
     float:left;
     border: #d5d5d5 1px solid;
     width: 55px;
-    height:80px;
+    height:76px;
     text-align: center;
 }
 .map1
@@ -383,6 +387,7 @@
 .photo li
 {
     float:left;
+    padding-left: 4px;
 }
 
 
@@ -434,7 +439,7 @@
 }
 .rgjd ul li
 {
-    font: 12spx/150% "微软雅黑";
+    font: 12px/150% "微软雅黑";
 }
 .rgjd ul li span
 {

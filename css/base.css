@@ -89,7 +89,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 
 /*广告紫色条*/
 .gimg{
-    background-color:#8b25c6;
+    /*background-color:#8b25c6;*/
 }
 /*广告紫色条图片*/
 .gimg .gimgA
@@ -100,7 +100,55 @@ s,i,em{font-style:normal;text-decoration:none;}
     margin:0 auto;
 }
 
+.gimg .close
+{
+    width: 19px;
+    height: 19px;
 
+    float: right;
+    margin-top: -80px;
+    margin-right: 267px;
+    background:url(../images/close.png) no-repeat ;
+}
+
+.ws {  /*版心 提取 */
+    width: 1250px;margin:0 auto;
+}
+
+
+/*页脚*/
+.footer
+{
+    border-top: solid 2px #f5f5f5;
+}
+.footercall
+{
+    margin-top: 20px;
+}
+.footercall ul
+{
+
+    margin-left: 250px;
+}
+.footercall li
+{
+    float: left;
+    width: 70px;
+    text-align: center;
+}
+.footerimg li
+{
+    float: left;
+}
+.footertext p
+{
+    width: 1210px;
+    text-align: center;
+}
+.footerimg ul
+{
+    margin-left: 330px;
+}
 
 
 
